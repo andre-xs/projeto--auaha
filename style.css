@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --fonte1: 'Poppins', sans-serif;
+
+    --cor1: #ffffff;
+    --cor2: #949596;
+    --cor3: #2B3034;
+    --cor4: #fafafa;
+    --cor5: #2B3034;
+    --cor6: #4D4D4D;
+}
+
+body{
+    font-family: var(--fonte1);
+    line-height: 25px;
+}
+
+h2, h3 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+header {
+    background-image: url('img/Grupo\ de\ máscara\ 1.png');
+    background-position: center top;
+    height: 360px;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: auto;
+}
+
+header h1 {
+    color: var(--cor1);
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.secao1 {
+    margin: 32px 15vw;
+    background-color: var(--cor1);
+}
+
+.secao1 h2, .secao2 h3 {
+    color: var(--cor3);
+    padding: 10px 0;
+}
+
+.secao1 p, .secao2 p {
+    color: var(--cor2);
+    font-size: 14pt;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.secao1 img, .blocos img {
+    width: 100%;
+}
+
+.secao2 {
+    background-color: var(--cor4);
+    padding: 32px 15vw;
+}
+
+.secao2 p {
+    color: var(--cor2);
+    font-size: 13pt;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.blocos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco__2 {
+    padding: 0 30px;
+}
+
+.secao3 {
+    background-color: var(--cor5);
+    padding: 100px 15vw;
+    display: flex;
+}
+
+.secao3 h3 {
+    color: var(--cor1);
+    padding-bottom: 15px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.secao3 p {
+    color: var(--cor2);
+    font-size: 14pt;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 20px;
+    padding-right: 20px;
+}
+
+.secao3 img {
+    width: 55rem;
+}
+
+.secao4 {
+    background-color: var(--cor6);
+    padding: 100px 15vw;
+}
+
+.secao4 h3 {
+    color: var(--cor1);
+    padding-bottom: 15px;
+    text-align: left;
+
+}
+.secao4 p {
+    color: var(--cor2);
+    font-size: 14pt;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+footer {
+    padding: 20px 16vw;
+    background-color: var(--cor4);
+    background-image: url('img/Grupo\ 554.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: var(--cor5);
+    font-size: 10pt;
+    text-align: center;
+    line-height: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .secao1, .secao2 {
+        margin: 32px 1vw;
+        padding: 32px 1vw;
+    }   
+
+    .secao3 {
+        padding: 100px 0;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .secao4 {
+        padding: 100px 15px;
+    }
+
+    footer {
+        padding: 20px 0;
+}
+}
+
+@media screen and (max-width: 768px){
+    .blocos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloco__2 {
+        padding: 0;
+    }
+}
+
+
