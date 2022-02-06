@@ -153,13 +153,17 @@ footer p {
         justify-content: space-between;
     }
 
+    .secao3__img {
+        width: 100vw;
+    }
+
     .secao4 {
         padding: 100px 15px;
     }
 
     footer {
         padding: 20px 0;
-}
+    }
 }
 
 @media screen and (max-width: 768px){
